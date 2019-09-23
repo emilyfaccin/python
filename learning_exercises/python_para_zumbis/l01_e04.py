@@ -1,7 +1,8 @@
-# calcular o aumento de um salario, recebendo o salario atual e o percentual de aumento
+# calcular o aumento de salario, recebendo salario atual e o percentual
+# de aumento
 
-valor = input('Digite o salario e o percentual de aumento, separados por [/]: ')
-
+print('Digite o salario e o percentual de aumento, separados por [/]: ')
+valor = input()
 lista = valor.split('/')
 
 percent = float(lista[1])

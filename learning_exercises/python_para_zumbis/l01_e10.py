@@ -2,8 +2,10 @@
 # ler cigarros fumados por dia e tempo em anos como fumante
 # -10 minutos/cigarro, exibir em dias
 
-cigarro = int(input('Digite o total de cigarros fumados por dia para calcular a redução do tempo de vida:'))
-anos = float(input('Agora digite os anos como fumante: '))
+print('Digite o total de cigarros fumados por dia:')
+cigarro = int(input())
+print('Agora digite os anos como fumante: ')
+anos = float(input())
 
 total = (anos * 365 * cigarro * 10) / 1440
 

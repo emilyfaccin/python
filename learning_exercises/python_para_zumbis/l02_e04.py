@@ -4,13 +4,11 @@ val = input('Digite 3 números separados por / para saber qual o maior: ')
 lista = val.split('/')
 a, b, c = map(int, lista)
 
-maior = a
-if b > a:
-    if c > b:
-        maior = c
-    else:
-        maior = b
-elif c > a:
+if a > b and a > c:
+    maior = a
+elif b > c:
+    maior = b
+else:
     maior = c
 
 print(f'O maior número é {maior}')

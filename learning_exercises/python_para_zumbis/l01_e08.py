@@ -1,5 +1,8 @@
-# ler uma temperatura em farenheit e transformar em celsius, sendo f = 9 * c / 5 + 32
+# ler uma temperatura em farenheit e transformar em celsius f = 9 * c / 5 + 32
 
-farenh = float(input('Digite a temperatura em Celsius a ser convertida para Celsius: '))
+print('Digite a temperatura em Celsius a ser convertida para Celsius: ')
 
-print('A temperatura digitada em Celsius é de {} °C.' .format((farenh -32) * 5 / 9))
+farenheit = float(input())
+celsius = (farenheit - 32) * 5 / 9
+
+print(f'A temperatura digitada em Celsius é de {celsius} °C.')

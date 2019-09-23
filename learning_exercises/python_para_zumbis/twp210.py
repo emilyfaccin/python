@@ -1,4 +1,4 @@
-#ler um numero e imprimir os pares entre zero e esse numero
+# ler um numero e imprimir os pares entre zero e esse numero
 
 num = int(input('Digite um numero: '))
 x = 0
